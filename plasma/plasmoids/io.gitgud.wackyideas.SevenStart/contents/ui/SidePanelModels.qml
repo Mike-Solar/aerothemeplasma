@@ -134,7 +134,7 @@ Item {
             description: i18n("Change settings and customize the functionality of your computer."),
 			itemIcon: "preferences-system",
 			itemIconFallback: "preferences-desktop",
-			executableString: "systemsettings",
+			executableString: "sh -c 'if command -v explorer >/dev/null 2>&1; then exec explorer --control-panel; else exec systemsettings; fi'",
 			executeProgram: true,
             menuModel: null,
         },
