@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=AeroThemePlasma session environment
+Comment=Give the portal services the Wayland session environment
+Exec=/usr/lib/aerothemeplasma-desktop/session-env.sh
+Terminal=false
+NoDisplay=true
+X-KDE-autostart-after=panel
+X-KDE-autostart-phase=2
