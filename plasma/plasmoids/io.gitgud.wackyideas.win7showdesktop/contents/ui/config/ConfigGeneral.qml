@@ -59,7 +59,7 @@ ConfigPage {
 		RadioButton {
 			ButtonGroup.group: clickGroup
 			checked: cfg_click_action == 'showdesktop'
-			text: i18nd("plasma_applet_org.kde.plasma.showdesktop", "Show Desktop")
+			text: i18nd("plasma_applet_io.gitgud.wackyideas.win7showdesktop", "Show Desktop")
 			onClicked: {
 				cfg_click_action = 'showdesktop'
 			}
@@ -68,7 +68,7 @@ ConfigPage {
 		RadioButton {
 			ButtonGroup.group: clickGroup
 			checked: cfg_click_action == 'minimizeall'
-			text: i18ndc("plasma_applet_org.kde.plasma.showdesktop", "@action", "Minimize All Windows")
+			text: i18ndc("plasma_applet_io.gitgud.wackyideas.win7showdesktop", "@action", "Minimize All Windows")
 
 			onClicked: {
 				cfg_click_action = 'minimizeall'

@@ -75,9 +75,9 @@ Item {
         active: model.running || !model.isSupported
         mainText: {
             if(model.running) {
-                return i18nd("plasma_shell_org.kde.plasma.desktop", "%1 added", model.running)
+                return i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "%1 added", model.running)
             } else {
-                return i18nd("plasma_shell_org.kde.plasma.desktop", "Unsupported Widget")
+                return i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Unsupported Widget")
             }
         }
         subText: !model.isSupported ? model.unsupportedMessage : null

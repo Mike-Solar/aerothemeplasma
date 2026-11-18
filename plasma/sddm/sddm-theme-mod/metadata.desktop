@@ -1,6 +1,8 @@
 [SddmGreeterTheme]
 Name=SMOD
+Name[zh_CN]=SMOD
 Description=Windows 7-like theme for SDDM
+Description[zh_CN]=Windows 7 风格的 SDDM 登录主题
 Author=Souris, WackyIdeas
 Type=sddm-theme
 Version=1.0

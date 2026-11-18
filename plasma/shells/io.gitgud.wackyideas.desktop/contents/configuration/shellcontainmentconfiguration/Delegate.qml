@@ -176,8 +176,8 @@ QQC2.Control {
                                 model: ShellContainmentModel
                                 QQC2.MenuItem {
                                     text: edge == "floating"
-                                        ? i18nd("plasma_shell_org.kde.plasma.desktop", "Swap with Desktop on Screen %1", model.screenName)
-                                        : i18nd("plasma_shell_org.kde.plasma.desktop", "Move to Screen %1", model.screenName)
+                                        ? i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Swap with Desktop on Screen %1", model.screenName)
+                                        : i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Move to Screen %1", model.screenName)
                                     visible: model.screenName !== delegate.screenName
                                     height: visible ? implicitHeight : 0
                                     onTriggered: {
@@ -191,8 +191,8 @@ QQC2.Control {
                             QQC2.MenuItem {
                                 id: removeItem
                                 text: contRect.state === "floating"
-                                    ? i18nd("plasma_shell_org.kde.plasma.desktop", "Remove Desktop")
-                                    : i18nd("plasma_shell_org.kde.plasma.desktop", "Remove Panel")
+                                    ? i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Remove Desktop")
+                                    : i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Remove Panel")
                                 icon.name: "edit-delete"
                                 onTriggered: {
                                     if (contRect.state === "floating") {
@@ -265,7 +265,7 @@ QQC2.Control {
             horizontalAlignment: Text.AlignHCenter
             wrapMode: Text.WordWrap
             text: model.isPrimary
-                ? i18nd("plasma_shell_org.kde.plasma.desktop", "%1 (primary)", model.screenName)
+                ? i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "%1 (primary)", model.screenName)
                 : model.screenName
             textFormat: Text.PlainText
         }

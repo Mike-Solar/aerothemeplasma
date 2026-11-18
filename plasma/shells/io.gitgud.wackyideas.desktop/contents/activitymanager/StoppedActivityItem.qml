@@ -135,7 +135,7 @@ Item {
                 icon.name: "configure"
                 PlasmaComponents.ToolTip.delay: Kirigami.Units.toolTipDelay
                 PlasmaComponents.ToolTip.visible: hovered
-                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_org.kde.plasma.desktop", "Configure activity")
+                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Configure activity")
 
                 onClicked: KCMLauncher.openSystemSettings("kcm_activities", root.activityId)
 
@@ -152,7 +152,7 @@ Item {
                 icon.name: "edit-delete"
                 PlasmaComponents.ToolTip.delay: Kirigami.Units.toolTipDelay
                 PlasmaComponents.ToolTip.visible: hovered
-                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_org.kde.plasma.desktop", "Delete")
+                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Delete")
 
                 onClicked: ActivitySwitcher.Backend.removeActivity(root.activityId)
                 visible: KAuthorized.authorize("plasma-desktop/add_activities")

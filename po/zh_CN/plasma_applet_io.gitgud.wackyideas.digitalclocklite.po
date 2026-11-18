@@ -1,0 +1,177 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "Appearance"
+msgstr "外观"
+
+msgid "Calendar"
+msgstr "日历"
+
+msgid "Time Zones"
+msgstr "时区"
+
+msgid "No events for today"
+msgstr "今天没有事件"
+
+msgid "No events for this day"
+msgstr "这一天没有事件"
+
+msgid "Change date and time settings..."
+msgstr "更改日期和时间设置…"
+
+msgctxt "Format: month year"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+msgctxt "Format: year"
+msgid "%1"
+msgstr "%1"
+
+msgctxt "Format: year-year"
+msgid "%1-%2"
+msgstr "%1-%2"
+
+msgid "Information"
+msgstr "信息"
+
+msgid "Show date"
+msgstr "显示日期"
+
+msgid "Hide date on shorter taskbars"
+msgstr "在较矮的任务栏上隐藏日期"
+
+msgid "Show seconds"
+msgstr "显示秒"
+
+msgid "Show pin button"
+msgstr "显示固定按钮"
+
+msgctxt "Checkbox label; means 24h clock format, without am/pm"
+msgid "Use 24-hour Clock"
+msgstr "使用 24 小时制"
+
+msgid "Show local time zone"
+msgstr "显示本地时区"
+
+msgid "Time zone city"
+msgstr "时区城市"
+
+msgid "Time zone code"
+msgstr "时区代码"
+
+msgid "Date format:"
+msgstr "日期格式："
+
+msgid "Long Date"
+msgstr "长日期"
+
+msgid "Short Date"
+msgstr "短日期"
+
+msgid "ISO Date"
+msgstr "ISO 日期"
+
+msgid "Custom Date"
+msgstr "自定义日期"
+
+msgid "Custom format:"
+msgstr "自定义格式："
+
+msgid "Use default font"
+msgstr "使用默认字体"
+
+msgctxt "@info The selected font family (%1) and font size (%2)"
+msgid "%1 %2 pt"
+msgstr "%1 %2 pt"
+
+msgid "Select Font..."
+msgstr "选择字体…"
+
+msgid "Bold"
+msgstr "粗体"
+
+msgid "Italic"
+msgstr "斜体"
+
+msgctxt "@title:window"
+msgid "Select Font"
+msgstr "选择字体"
+
+msgid "Show week numbers in Calendar"
+msgstr "在日历中显示周数"
+
+msgid "First day of week:"
+msgstr "每周第一天："
+
+msgid "Use Region Defaults"
+msgstr "使用区域默认值"
+
+msgid "Available Calendar Plugins"
+msgstr "可用的日历插件"
+
+msgid "Tip: if you travel frequently, add your home time zone to this list. It will only appear when you change the systemwide time zone to something else."
+msgstr "提示：如果您经常出差，可将您所在的时区添加到此列表。只有当系统时区更改为其他时区时，它才会显示。"
+
+msgid "Clock is currently using this time zone"
+msgstr "时钟当前正在使用此时区"
+
+msgctxt "@label This list item shows a time zone city name that is identical to the local time zone's city, and will be hidden in the timezone display in the plasmoid's popup"
+msgid "Hidden while this is the local time zone's city"
+msgstr "当此时区为本地时区时隐藏"
+
+msgid "Switch Systemwide Time Zone…"
+msgstr "切换系统时区…"
+
+msgid "Remove this time zone"
+msgstr "移除此时区"
+
+msgid "Additional Time Zones"
+msgstr "附加时区"
+
+msgid "Systemwide Time Zone"
+msgstr "系统时区"
+
+msgid "Add more time zones to display all of them in the applet's pop-up, or use one of them for the clock itself"
+msgstr "添加更多时区以在部件弹出窗口中全部显示，或将其中某个时区用于时钟本身"
+
+msgid "Add Time Zones…"
+msgstr "添加时区…"
+
+msgid "Switch displayed time zone by scrolling over clock applet"
+msgstr "在时钟部件上滚动可切换显示的时区"
+
+msgid "Using this feature does not change the systemwide time zone. When you travel, switch the systemwide time zone instead."
+msgstr "使用此功能不会更改系统时区。外出旅行时，请改为切换系统时区。"
+
+msgid "Add More Timezones"
+msgstr "添加更多时区"
+
+msgid "At least one time zone needs to be enabled. Your local timezone was enabled automatically."
+msgstr "至少需要启用一个时区。已自动启用您的本地时区。"
+
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+msgid "%1, %2"
+msgstr "%1, %2"
+
+msgid "Adjust Date and Time…"
+msgstr "调整日期和时间…"
+
+msgid "Set Time Format…"
+msgstr "设置时间格式…"

@@ -1,0 +1,360 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "Appearance"
+msgstr "外观"
+
+msgid "Behavior"
+msgstr "行为"
+
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+msgctxt "Over 9 new messages, overlay, keep short"
+msgid "9+"
+msgstr "9+"
+
+msgid "Window previews"
+msgstr "窗口预览"
+
+msgid "Enabled"
+msgstr "已启用"
+
+msgid "Use Window Peek to peek at a single application"
+msgstr "使用窗口速览查看单个应用程序"
+
+msgid "Caption alignment:"
+msgstr "标题对齐："
+
+msgid "Left"
+msgstr "左"
+
+msgid "Center"
+msgstr "居中"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Show mute button when an app is playing audio"
+msgstr "应用播放音频时显示静音按钮"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Show labels next to task icons"
+msgstr "在任务图标旁显示标签"
+
+msgid "Disable hot tracking"
+msgstr "禁用热跟踪"
+
+msgid "Use traditional context menus instead of jumplists"
+msgstr "使用传统上下文菜单而非跳转列表"
+
+msgid "Group:"
+msgstr "分组："
+
+msgid "By program name"
+msgstr "按程序名称"
+
+msgid "Do not group"
+msgstr "不分组"
+
+msgid "Clicking grouped task:"
+msgstr "点击已分组任务："
+
+msgctxt "Completes the sentence 'Clicking grouped task cycles through tasks' "
+msgid "Cycles through tasks"
+msgstr "在任务间循环"
+
+msgctxt "Completes the sentence 'Clicking grouped task shows tooltip window thumbnails' "
+msgid "Shows small window previews"
+msgstr "显示小窗口预览"
+
+msgctxt "Completes the sentence 'Clicking grouped task shows windows side by side' "
+msgid "Shows large window previews"
+msgstr "显示大窗口预览"
+
+msgctxt "Completes the sentence 'Clicking grouped task shows textual list' "
+msgid "Shows textual list"
+msgstr "显示文字列表"
+
+msgid "The compositor does not support displaying windows side by side, so a textual list will be displayed instead."
+msgstr "合成器不支持并排显示窗口，因此将改为显示“文字列表”。"
+
+msgid "Group only when the Task Manager is full"
+msgstr "仅当任务管理器已满时分组"
+
+msgid "Sort:"
+msgstr "排序："
+
+msgid "Alphabetically"
+msgstr "按字母顺序"
+
+msgid "By activity"
+msgstr "按活动"
+
+msgid "By desktop"
+msgstr "按桌面"
+
+msgid "Do not sort"
+msgstr "不排序"
+
+msgid "Manually"
+msgstr "手动"
+
+msgid "Group tasks together"
+msgstr "将任务分组在一起"
+
+msgid "Keep launchers separate"
+msgstr "保持启动器独立"
+
+msgid "Hide launchers after application startup"
+msgstr "应用程序启动后隐藏启动器"
+
+msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Clicking active task:"
+msgstr "点击活动任务："
+
+msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "最小化该任务"
+
+msgid "Middle-clicking any task:"
+msgstr "中键单击任意任务："
+
+msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "不做任何操作"
+
+msgctxt "Part of a sentence: 'Middle-clicking any task closes window or group'"
+msgid "Closes window or group"
+msgstr "关闭窗口或分组"
+
+msgctxt "Part of a sentence: 'Middle-clicking any task opens a new window'"
+msgid "Opens a new window"
+msgstr "打开新窗口"
+
+msgctxt "Part of a sentence: 'Middle-clicking any task minimizes/restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "最小化/还原窗口或分组"
+
+msgctxt "Part of a sentence: 'Middle-clicking any task toggles grouping'"
+msgid "Toggles grouping"
+msgstr "切换分组"
+
+msgctxt "Part of a sentence: 'Middle-clicking any task brings it to the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "将其移至当前虚拟桌面"
+
+msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+msgid "Mouse wheel:"
+msgstr "鼠标滚轮："
+
+msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+msgid "Cycles through tasks"
+msgstr "在任务间循环"
+
+msgid "Skip minimized tasks"
+msgstr "跳过已最小化的任务"
+
+msgid "Show only tasks:"
+msgstr "仅显示任务："
+
+msgid "From current screen"
+msgstr "来自当前屏幕"
+
+msgid "From current desktop"
+msgstr "来自当前桌面"
+
+msgid "From current activity"
+msgstr "来自当前活动"
+
+msgid "That are minimized"
+msgstr "已最小化的"
+
+msgid "When panel is hidden:"
+msgstr "面板隐藏时："
+
+msgid "Unhide when a window wants attention"
+msgstr "窗口需要关注时取消隐藏"
+
+msgid "New tasks appear:"
+msgstr "新任务出现于："
+
+msgid "On the bottom"
+msgstr "在底部"
+
+msgid "To the right"
+msgstr "在右侧"
+
+msgid "To the left"
+msgstr "在左侧"
+
+msgid "On the Top"
+msgstr "在顶部"
+
+msgid "Places"
+msgstr "位置"
+
+msgid "Recent Files"
+msgstr "最近文件"
+
+msgid "Actions"
+msgstr "操作"
+
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "上一曲"
+
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "暂停"
+
+msgctxt "Start playback"
+msgid "Play"
+msgstr "播放"
+
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "下一曲"
+
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "退出"
+
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "还原"
+
+msgid "Mute"
+msgstr "静音"
+
+msgid "Open New Window"
+msgstr "打开新窗口"
+
+msgid "Move to &Desktop"
+msgstr "移动到桌面(&D)"
+
+msgid "Move &To Current Desktop"
+msgstr "移动到当前桌面(&T)"
+
+msgid "&All Desktops"
+msgstr "所有桌面(&A)"
+
+msgid "&New Desktop"
+msgstr "新建桌面(&N)"
+
+msgid "Show in &Activities"
+msgstr "在活动中显示(&A)"
+
+msgid "Add To Current Activity"
+msgstr "添加到当前活动"
+
+msgid "All Activities"
+msgstr "所有活动"
+
+msgid "Move to %1"
+msgstr "移动到 %1"
+
+msgid "&Pin to Task Manager"
+msgstr "固定到任务管理器(&P)"
+
+msgid "On All Activities"
+msgstr "在所有活动上"
+
+msgid "On The Current Activity"
+msgstr "在当前活动上"
+
+msgid "Unpin from Task Manager"
+msgstr "从任务管理器取消固定"
+
+msgid "More"
+msgstr "更多"
+
+msgid "&Move"
+msgstr "移动(&M)"
+
+msgid "Re&size"
+msgstr "调整大小(&S)"
+
+msgid "Ma&ximize"
+msgstr "最大化(&X)"
+
+msgid "Mi&nimize"
+msgstr "最小化(&N)"
+
+msgid "Keep &Above Others"
+msgstr "总在最前(&A)"
+
+msgid "Keep &Below Others"
+msgstr "总在最后(&B)"
+
+msgid "&Fullscreen"
+msgstr "全屏(&F)"
+
+msgid "Allow this program to be grouped"
+msgstr "允许此程序被分组"
+
+msgid "&Close"
+msgstr "关闭(&C)"
+
+msgctxt "@item:inmenu"
+msgid "&Close All"
+msgstr "全部关闭(&C)"
+
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "启动 %1"
+
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "显示 %1 的任务工具提示"
+
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "并排显示 %1 的窗口"
+
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "打开 %1 的窗口文字列表"
+
+msgid "Activate %1"
+msgstr "激活 %1"
+
+msgid "Frequent"
+msgstr "常用"
+
+msgid "Recent"
+msgstr "最近"
+
+msgid "Tasks"
+msgstr "任务"
+
+msgid "Media"
+msgstr "媒体"
+
+msgid "Unpin program from taskbar"
+msgstr "从任务栏取消固定程序"
+
+msgid "Task Manager"
+msgstr "任务管理器"

@@ -1,0 +1,130 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "General"
+msgstr "常规"
+
+msgctxt "@action:button"
+msgid "Run custom command"
+msgstr "运行自定义命令"
+
+msgctxt "@info:tooltip"
+msgid "Run user-defined command when pressed"
+msgstr "按下时运行用户定义的命令"
+
+msgctxt "@action:button"
+msgid "Restore All Minimized Windows"
+msgstr "还原所有最小化的窗口"
+
+msgctxt "@action:button"
+msgid "Minimize All Windows"
+msgstr "最小化所有窗口"
+
+msgctxt "@info:tooltip"
+msgid "Restores the previously minimized windows"
+msgstr "还原先前最小化的窗口"
+
+msgctxt "@info:tooltip"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr "通过最小化所有窗口显示桌面"
+
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr "速览桌面"
+
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr "停止速览桌面"
+
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr "将窗口移回原来的位置"
+
+msgctxt "@info:tooltip"
+msgid "Temporarily shows the desktop by moving windows away"
+msgstr "通过移开窗口临时显示桌面"
+
+msgid "Look"
+msgstr "外观"
+
+msgid "Size:"
+msgstr "大小："
+
+msgid "px"
+msgstr "像素"
+
+msgid "Click"
+msgstr "单击"
+
+msgid "Show Desktop"
+msgstr "显示桌面"
+
+msgctxt "@action"
+msgid "Minimize All Windows"
+msgstr "最小化所有窗口"
+
+msgid "Run Command"
+msgstr "运行命令"
+
+msgid "Toggle Present Windows (All desktops)"
+msgstr "切换窗口展示（所有桌面）"
+
+msgid "Toggle Present Windows (Current desktop)"
+msgstr "切换窗口展示（当前桌面）"
+
+msgid "Toggle Present Windows (Window class)"
+msgstr "切换窗口展示（窗口类）"
+
+msgid "Mouse Wheel"
+msgstr "鼠标滚轮"
+
+msgid "Run Commands"
+msgstr "运行命令"
+
+msgid "Scroll Up:"
+msgstr "向上滚动："
+
+msgid "Scroll Down:"
+msgstr "向下滚动："
+
+msgid "Volume (No UI) (amixer)"
+msgstr "音量（无界面）(amixer)"
+
+msgid "Volume (UI) (qdbus)"
+msgstr "音量（界面）(qdbus)"
+
+msgid "Switch Desktop (qdbus)"
+msgstr "切换桌面 (qdbus)"
+
+msgid "Peek"
+msgstr "速览"
+
+msgid "Show desktop on hover:"
+msgstr "悬停时显示桌面："
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Peek threshold:"
+msgstr "速览阈值："
+
+msgid "ms"
+msgstr "毫秒"
+
+msgid "<b>Version:</b> %1"
+msgstr "<b>版本：</b> %1"

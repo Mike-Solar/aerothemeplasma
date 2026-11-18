@@ -3,11 +3,13 @@
     "KPlugin": {
         "Category": "Application Launchers",
         "Description": "Open application menu",
+        "Description[zh_CN]": "打开应用程序菜单",
         "EnabledByDefault": true,
         "Icon": "start-here-kde",
         "Id": "io.gitgud.wackyideas.SevenStart",
         "License": "AGPLv3",
         "Name": "Seven Start",
+        "Name[zh_CN]": "Seven Start",
         "Version": "1.0"
     },
     "X-Plasma-API-Minimum-Version": "6.0"

@@ -140,7 +140,7 @@ Flickable {
         Kirigami.Heading {
             id: stoppedActivitiesHeading
 
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Stopped activities:")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Stopped activities:")
             textFormat: Text.PlainText
             level: 3
             visible: !root.showSwitcherOnly && stoppedActivitiesList.count > 0

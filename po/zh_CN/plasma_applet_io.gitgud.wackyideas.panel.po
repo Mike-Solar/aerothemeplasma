@@ -1,0 +1,35 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Configure…"
+msgstr "配置…"
+
+msgid "Show Alternatives…"
+msgstr "显示替代方案…"
+
+msgid "Spacer width"
+msgstr "间隔物宽度"
+
+msgid "Open Panel configuration ui"
+msgstr "打开面板配置界面"
+
+msgid "Add Widgets…"
+msgstr "添加部件…"

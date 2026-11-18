@@ -74,7 +74,7 @@ Rectangle {
     ConfigModel {
         id: globalAppletConfigModel
         ConfigCategory {
-            name: i18nd("plasma_shell_org.kde.plasma.desktop", "Keyboard Shortcuts")
+            name: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Keyboard Shortcuts")
             icon: "preferences-desktop-keyboard"
             source: Qt.resolvedUrl("ConfigurationShortcuts.qml")
         }
@@ -297,7 +297,7 @@ Rectangle {
 
                     Accessible.role: Accessible.MenuItem
                     Accessible.name: model.name
-                    Accessible.description: i18nd("plasma_shell_org.kde.plasma.desktop", "Open configuration page")
+                    Accessible.description: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Open configuration page")
                     Accessible.onPressAction: ma.clicked(null)
 
                     Layout.leftMargin: Kirigami.Units.largeSpacing
@@ -362,7 +362,7 @@ Rectangle {
                 Layout.fillWidth: true
                 model: ConfigModel {
                     ConfigCategory{
-                        name: i18nd("plasma_shell_org.kde.plasma.desktop", "About")
+                        name: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "About")
                         icon: "help-about"
                         source: Qt.resolvedUrl("AboutPlugin.qml")
                     }
@@ -417,7 +417,7 @@ Rectangle {
             id: messageDialog
             property var item
             modality: Qt.WindowModal
-            title: i18nd("plasma_shell_org.kde.plasma.desktop", "Confirm changes")
+            title: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Confirm changes")
             minimumWidth: contents.implicitWidth
             maximumWidth: minimumWidth
             minimumHeight: contents.implicitHeight
@@ -468,7 +468,7 @@ Rectangle {
                     }
                     Text {
                         Layout.alignment: Qt.AlignTop | Qt.AlignLeft
-                        text: i18nd("plasma_shell_org.kde.plasma.desktop", "The settings of the current module have changed. Do you want to apply the changes or discard them?")
+                        text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "The settings of the current module have changed. Do you want to apply the changes or discard them?")
                         Layout.maximumWidth: Kirigami.Units.gridUnit*20
                         wrapMode: Text.WordWrap
                         color: "#0033bc"
@@ -489,7 +489,7 @@ Rectangle {
                     Layout.rightMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
                     QQC2.Button {
                         id: apply
-                        text: i18nd("plasma_shell_org.kde.plasma.desktop", "Apply")
+                        text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Apply")
                         Layout.preferredHeight: 21
                         KeyNavigation.right: discard
                         Keys.onPressed: event => {
@@ -504,7 +504,7 @@ Rectangle {
                     }
                     QQC2.Button {
                         id: discard
-                        text: i18nd("plasma_shell_org.kde.plasma.desktop", "Discard")
+                        text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Discard")
                         KeyNavigation.left: apply
                         KeyNavigation.right: cancel
                         Keys.onPressed: event => {
@@ -519,7 +519,7 @@ Rectangle {
                     }
                     QQC2.Button {
                         id: cancel
-                        text: i18nd("plasma_shell_org.kde.plasma.desktop", "Cancel")
+                        text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Cancel")
                         focus: true
                         KeyNavigation.left: discard
                         Keys.onPressed: event => {
@@ -563,7 +563,7 @@ Rectangle {
 
                 QQC2.Button {
                     icon.name: "dialog-ok"
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "OK")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "OK")
                     onClicked: acceptAction.trigger()
                     KeyNavigation.tab: categories
                 }
@@ -571,13 +571,13 @@ Rectangle {
                     id: applyButton
                     enabled: false
                     icon.name: "dialog-ok-apply"
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Apply")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Apply")
                     visible: !app.isAboutPage && app.pageStack.currentItem && (!app.pageStack.currentItem.kcm || app.pageStack.currentItem.kcm.buttons & 4) // 4 = Apply button
                     onClicked: applyAction.trigger()
                 }
                 QQC2.Button {
                     icon.name: "dialog-cancel"
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Cancel")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Cancel")
                     onClicked: cancelAction.trigger()
                     visible: !app.isAboutPage
                 }

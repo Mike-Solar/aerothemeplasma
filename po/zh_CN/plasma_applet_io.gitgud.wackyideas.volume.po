@@ -1,0 +1,80 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "General"
+msgstr "常规"
+
+msgid "General tweaks"
+msgstr "常规微调"
+
+msgid "Show device name instead of placeholder"
+msgstr "显示设备名称而非占位符"
+
+msgid "Flyout tweaks"
+msgstr "弹出面板微调"
+
+msgid "Show labels under icons"
+msgstr "在图标下方显示标签"
+
+msgid "Hide default input"
+msgstr "隐藏默认输入"
+
+msgid "Stream name not found"
+msgstr "未找到流名称"
+
+msgid "Audio Volume"
+msgstr "音频音量"
+
+msgid "No output or input devices found"
+msgstr "未找到输出或输入设备"
+
+msgid "Volume: Muted"
+msgstr "音量：静音"
+
+msgid "Volume: %1%"
+msgstr "音量：%1%"
+
+msgid "Middle-click to unmute"
+msgstr "中键单击取消静音"
+
+msgid "Middle-click to mute all audio"
+msgstr "中键单击使所有音频静音"
+
+msgid "Scroll to adjust volume"
+msgstr "滚动以调节音量"
+
+msgid "Device name not found"
+msgstr "未找到设备名称"
+
+msgid "Open Volume Mixer"
+msgstr "打开音量合成器"
+
+msgid "Raise maximum volume"
+msgstr "提高最大音量"
+
+msgid "Force mute all playback devices"
+msgstr "强制使所有播放设备静音"
+
+msgid "Force mute all input devices"
+msgstr "强制使所有输入设备静音"
+
+msgid "Show virtual devices"
+msgstr "显示虚拟设备"
+
+msgid "&Configure Audio Devices…"
+msgstr "配置音频设备(&C)…"

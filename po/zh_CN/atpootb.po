@@ -1,0 +1,131 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "Set up AeroThemePlasma"
+msgstr "设置 AeroThemePlasma"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "AeroThemePlasma Setup Wizard"
+msgstr "AeroThemePlasma 设置向导"
+
+msgid "Welcome to the AeroThemePlasma first time setup wizard."
+msgstr "欢迎使用 AeroThemePlasma 首次设置向导。"
+
+msgid "Microsoft® Windows™ is a registered trademark of Microsoft® Corporation. This name is used for referential use only, and does not aim to usurp copyrights from Microsoft. Microsoft Ⓒ 2025 All rights reserved. All respective resources and assets belong to Microsoft Corporation."
+msgstr "Microsoft® Windows™ 是 Microsoft® Corporation 的注册商标。此名称仅用于指代，无意侵犯 Microsoft 的版权。Microsoft Ⓒ 2025 保留所有权利。所有相关资源与素材均归 Microsoft Corporation 所有。"
+
+msgid "Look and Feel"
+msgstr "外观与感觉"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "AeroThemePlasma will change the look and feel of the following parts of your system:\n- Plasma Style\n- Application Style\n- Color Scheme\n- Icon and Sound Theme\n- Window Effects and Animations\n\nTo review these changes in detail, see the [install guide](https://gitgud.io/wackyideas/aerothemeplasma/-/blob/master/INSTALL.md?ref_type=heads). These settings can be changed later at any time."
+msgstr "AeroThemePlasma 将更改系统以下部分的外观与感觉：\n- Plasma 样式\n- 应用程序样式\n- 配色方案\n- 图标和声音主题\n- 窗口特效与动画\n\n如需详细了解这些更改，请参阅[安装指南](https://gitgud.io/wackyideas/aerothemeplasma/-/blob/master/INSTALL.md?ref_type=heads)。这些设置之后可随时更改。"
+
+msgid "These configurations will also be applied to the regular Plasma session."
+msgstr "这些配置也会应用到常规 Plasma 会话。"
+
+msgid "SDDM Theme"
+msgstr "SDDM 主题"
+
+msgid "AeroThemePlasma will change the look and feel of the login screen (SDDM), as well as synchronize settings between Plasma and SDDM.\n"
+msgstr "AeroThemePlasma 将更改登录屏幕（SDDM）的外观与感觉，并在 Plasma 与 SDDM 之间同步设置。\n"
+
+msgid "These operations require administrator privileges."
+msgstr "这些操作需要管理员权限。"
+
+msgid "Cursor Theme"
+msgstr "光标主题"
+
+msgid "AeroThemePlasma will change the default cursor theme globally in order for SDDM to recognize it.\n"
+msgstr "AeroThemePlasma 将全局更改默认光标主题，以便 SDDM 能够识别。\n"
+
+msgid "This operation requires administrator privileges."
+msgstr "此操作需要管理员权限。"
+
+msgid "Completing the AeroThemePlasma Setup Wizard"
+msgstr "正在完成 AeroThemePlasma 设置向导"
+
+msgid "Finish"
+msgstr "完成"
+
+msgid "Thank you for trying out AeroThemePlasma!"
+msgstr "感谢您试用 AeroThemePlasma！"
+
+msgid "Click Finish to exit the AeroThemePlasma wizard."
+msgstr "单击“完成”退出 AeroThemePlasma 向导。"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "AeroShell"
+msgstr "AeroShell"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Accessibility"
+msgstr "辅助功能"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Appearance"
+msgstr "外观"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Focus"
+msgstr "焦点"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Peek at Desktop Animation"
+msgstr "桌面预览动画"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Tools"
+msgstr "工具"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Virtual Desktop Switching Animation"
+msgstr "虚拟桌面切换动画"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Window Management"
+msgstr "窗口管理"
+
+msgctxt "Category of Desktop Effects, used as section header"
+msgid "Window Open/Close Animation"
+msgstr "窗口打开/关闭动画"
+
+msgid "KWin development team"
+msgstr "KWin 开发团队"
+
+msgctxt "@title"
+msgid "atpootb"
+msgstr "atpootb"
+
+msgid "Application Description"
+msgstr "应用程序描述"
+
+msgid "(c) 2025"
+msgstr "(c) 2025"
+
+msgctxt "@info:credit"
+msgid "WackyIdeas"
+msgstr "WackyIdeas"
+
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "维护者"

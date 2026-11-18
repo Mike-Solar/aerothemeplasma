@@ -12,10 +12,12 @@
         ],
         "Category": "",
         "Description": "Windows 7 styled splash screen",
+        "Description[zh_CN]": "Windows 7 风格启动画面",
         "Icon": "user-desktop",
         "Id": "authui7",
         "License": "AGPLv3",
         "Name": "Windows 7 style",
+        "Name[zh_CN]": "Windows 7 风格",
         "Version": "2.0",
         "Website": "https://gitgud.io/wackyideas/aerothemeplasma"
     },

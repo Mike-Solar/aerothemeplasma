@@ -26,7 +26,7 @@ Window {
     //backgroundHints: (alternativesHelper.applet.Plasmoid.containmentDisplayHints & PlasmaCore.Types.ContainmentPrefersOpaqueBackground) ? PlasmaCore.Dialog.SolidBackground : PlasmaCore.Dialog.StandardBackground
     required property AlternativesHelper alternativesHelper
 
-    title: i18nd("plasma_shell_org.kde.plasma.desktop", "Alternative Widgets for %1", alternativesHelper.applet.Plasmoid.title)
+    title: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Alternative Widgets for %1", alternativesHelper.applet.Plasmoid.title)
 
     modality: Qt.ApplicationModal
     Component.onCompleted: {

@@ -207,7 +207,7 @@ PC3.Page {
     Window {
         id: confirmationDialog
         modality: Qt.ApplicationModal
-        title: i18nd("plasma_shell_org.kde.plasma.desktop", "Desktop Gadgets")
+        title: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Desktop Gadgets")
         minimumWidth: contents.implicitWidth
         maximumWidth: minimumWidth
         minimumHeight: contents.implicitHeight
@@ -248,7 +248,7 @@ PC3.Page {
                 }
                 Text {
                     Layout.alignment: Qt.AlignTop | Qt.AlignLeft
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Do you want to uninstall %1?", widgetsOptions.visualParent?.name);
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Do you want to uninstall %1?", widgetsOptions.visualParent?.name);
                     color: "#0033bc"
                     font.pixelSize: 16
                     renderType: Text.NativeRendering
@@ -267,7 +267,7 @@ PC3.Page {
                 Layout.rightMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
                 QQC2.Button {
                     id: uninstall
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Uninstall")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Uninstall")
                     Layout.preferredHeight: 21
                     KeyNavigation.right: no_uninstall
                     Keys.onPressed: event => {
@@ -294,7 +294,7 @@ PC3.Page {
                 }
                 QQC2.Button {
                     id: no_uninstall
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Don't uninstall")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Don't uninstall")
                     focus: true
                     KeyNavigation.left: uninstall
                     Keys.onPressed: event => {
@@ -335,7 +335,7 @@ PC3.Page {
         onClicked: {
             list.contentX = 0
             list.contentY = 0
-            //categoryButton.text = (model.filterData ? model.display : i18nd("plasma_shell_org.kde.plasma.desktop", "All Widgets"))
+            //categoryButton.text = (model.filterData ? model.display : i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "All Widgets"))
             widgetExplorer.widgetsModel.filterQuery = model.filterData
             widgetExplorer.widgetsModel.filterType = model.filterType
             pageSwitcher.pageIndex = 0;
@@ -349,13 +349,13 @@ PC3.Page {
         id: widgetsOptions
         placement: PlasmaExtras.Menu.BottomPosedRightAlignedPopup
         PlasmaExtras.MenuItem {
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Add")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Add")
             onClicked: {
                 if(widgetsOptions.visualParent) widgetExplorer.addApplet(widgetsOptions.visualParent.pluginName)
             }
         }
         PlasmaExtras.MenuItem {
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Uninstall")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Uninstall")
             visible: widgetsOptions.visualParent && widgetsOptions.visualParent.local
 
             onClicked: {
@@ -441,7 +441,7 @@ PC3.Page {
                         Layout.bottomMargin: 1
                         Layout.leftMargin: Kirigami.Units.gridUnit+1
                         Layout.rightMargin: Kirigami.Units.gridUnit+1
-                        text: i18nd("plasma_shell_org.kde.plasma.desktop", "Page %1 of %2", pageSwitcher.currentPage, pageSwitcher.maxPages);
+                        text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Page %1 of %2", pageSwitcher.currentPage, pageSwitcher.maxPages);
                         renderType: Text.NativeRendering
                         font.hintingPreference: Font.PreferFullHinting
                         font.kerning: false
@@ -546,7 +546,7 @@ PC3.Page {
                             anchors.bottomMargin: 2
                             font.italic: true
                             color: "#707070"
-                            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Search gadgets")
+                            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Search gadgets")
                             verticalAlignment: Text.AlignVCenter
                             visible: !searchInput.activeFocus && searchInput.text == ""
                             style: Text.Outline
@@ -652,7 +652,7 @@ PC3.Page {
                 GlowText {
                     id: showDetailsText
                     Layout.bottomMargin: 1
-                    text: main.showingDetails ? i18nd("plasma_shell_org.kde.plasma.desktop", "Hide details") : i18nd("plasma_shell_org.kde.plasma.desktop", "Show details")
+                    text: main.showingDetails ? i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Hide details") : i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Show details")
                     MouseArea {
                         id: details_ma
                         anchors.fill: parent
@@ -688,7 +688,7 @@ PC3.Page {
                     KeyNavigation.right: morePlasmoidsLink_link
                     KeyNavigation.left: expandButton
                     KeyNavigation.priority: KeyNavigation.BeforeItem
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Install gadgets from local file")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Install gadgets from local file")
                     action: widgetExplorer?.widgetsMenuActions[2].trigger
                 }
             }
@@ -713,7 +713,7 @@ PC3.Page {
                     KeyNavigation.backtab: installFromLocal_link
                     KeyNavigation.left: installFromLocal_link
                     KeyNavigation.priority: KeyNavigation.BeforeItem
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Get more gadgets online")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Get more gadgets online")
                     action: widgetExplorer?.widgetsMenuActions[0].trigger
                 }
             }

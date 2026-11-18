@@ -13,10 +13,12 @@
         ],
         "Category": "Plasma Theme",
         "Description": "Seven Black theme with glass effect and reflections",
+        "Description[zh_CN]": "带玻璃效果与倒影的 Seven Black 主题",
         "EnabledByDefault": true,
         "Id": "Seven-Black",
         "License": "GPL",
         "Name": "Seven Black",
+        "Name[zh_CN]": "Seven Black",
         "Version": "1.0.88"
     },
     "X-Plasma-API": "6.0"

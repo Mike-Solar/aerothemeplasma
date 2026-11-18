@@ -9,10 +9,12 @@
         ],
         "Category": "",
         "Description": "Default panel featuring application launcher, task manager and system tray",
+        "Description[zh_CN]": "包含应用程序启动器、任务管理器和系统托盘的默认面板",
         "EnabledByDefault": true,
         "Id": "io.gitgud.wackyideas.taskbar",
         "License": "AGPLv3",
         "Name": "AeroThemePlasma Taskbar",
+        "Name[zh_CN]": "AeroThemePlasma 任务栏",
         "Website": "https://gitgud.io/wackyideas/aerothemeplasma"
     },
     "X-Plasma-ContainmentCategories": [

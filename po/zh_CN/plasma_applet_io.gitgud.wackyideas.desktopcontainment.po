@@ -1,0 +1,345 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Icons"
+msgstr "图标"
+
+msgid "Filter"
+msgstr "筛选"
+
+msgid "Watermark"
+msgstr "水印"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Files:"
+msgstr "文件："
+
+msgid "Hide matching"
+msgstr "隐藏匹配项"
+
+msgid "Show all"
+msgstr "显示全部"
+
+msgid "Show matching"
+msgstr "显示匹配项"
+
+msgid "File name pattern:"
+msgstr "文件名模式："
+
+msgid "File types:"
+msgstr "文件类型："
+
+msgid "Show hidden files:"
+msgstr "显示隐藏文件："
+
+msgid "File Type"
+msgstr "文件类型"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Select All"
+msgstr "全选"
+
+msgid "Deselect All"
+msgstr "取消全选"
+
+msgid "Switch Sort Order"
+msgstr "切换排序顺序"
+
+msgid "Panel button:"
+msgstr "面板按钮："
+
+msgid "Use a custom icon"
+msgstr "使用自定义图标"
+
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "选择…"
+
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "清除图标"
+
+msgid "Arrangement:"
+msgstr "排列方式："
+
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "Left to Right"
+msgstr "从左到右"
+
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "Right to Left"
+msgstr "从右到左"
+
+msgctxt "@item:inlistbox arrangement of icons"
+msgid "Top to Bottom"
+msgstr "从上到下"
+
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Align left"
+msgstr "左对齐"
+
+msgctxt "@item:inlistbox alignment of icons"
+msgid "Align right"
+msgstr "右对齐"
+
+msgid "Lock in place"
+msgstr "锁定位置"
+
+msgid "Sorting:"
+msgstr "排序："
+
+msgctxt "@item:inlistbox sort icons manually"
+msgid "Manual"
+msgstr "手动"
+
+msgctxt "@item:inlistbox sort icons by name"
+msgid "Name"
+msgstr "名称"
+
+msgctxt "@item:inlistbox sort icons by size"
+msgid "Size"
+msgstr "大小"
+
+msgctxt "@item:inlistbox sort icons by file type"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "@item:inlistbox sort icons by date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "@option:check sort icons in descending order"
+msgid "Descending"
+msgstr "降序"
+
+msgctxt "@option:check sort icons with folders first"
+msgid "Folders first"
+msgstr "文件夹优先"
+
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr "视图模式："
+
+msgctxt "@item:inlistbox show icons in a list"
+msgid "List"
+msgstr "列表"
+
+msgctxt "@item:inlistbox show icons in a grid"
+msgid "Grid"
+msgstr "网格"
+
+msgid "Icon size:"
+msgstr "图标大小："
+
+msgctxt "@label:slider smallest icon size"
+msgid "Small"
+msgstr "小"
+
+msgctxt "@label:slider largest icon size"
+msgid "Large"
+msgstr "大"
+
+msgid "Label width:"
+msgstr "标签宽度："
+
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Narrow"
+msgstr "窄"
+
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Medium"
+msgstr "中"
+
+msgctxt "@item:inlistbox how long a text label should be"
+msgid "Wide"
+msgstr "宽"
+
+msgid "Text lines:"
+msgstr "文本行数："
+
+msgid "When hovering over icons:"
+msgstr "鼠标悬停在图标上时："
+
+msgid "Show tooltips"
+msgstr "显示工具提示"
+
+msgid "Show selection markers"
+msgstr "显示选择标记"
+
+msgid "Show folder preview popups"
+msgstr "显示文件夹预览弹窗"
+
+msgid "Rename:"
+msgstr "重命名："
+
+msgid "Rename inline by clicking selected item's text"
+msgstr "单击选中项的文字即可就地重命名"
+
+msgid "Use drop shadows for icon labels on the desktop"
+msgstr "为桌面图标标签使用投影"
+
+msgid "Use drop shadows for icons on the desktop"
+msgstr "为桌面图标使用投影"
+
+msgid "Selection style:"
+msgstr "选择样式："
+
+msgctxt "@item:inlistbox how the selection should be"
+msgid "Plasma style"
+msgstr "Plasma 风格"
+
+msgctxt "@item:inlistbox how the selection should be"
+msgid "Classic"
+msgstr "经典"
+
+msgid "Select items by typing on the desktop"
+msgstr "在桌面上输入文字来选择项目"
+
+msgid "Previews:"
+msgstr "预览："
+
+msgid "Show preview thumbnails"
+msgstr "显示预览缩略图"
+
+msgid "Configure Preview Plugins…"
+msgstr "配置预览插件…"
+
+msgid "Show:"
+msgstr "显示："
+
+msgid "Desktop folder"
+msgstr "桌面文件夹"
+
+msgid "Files linked to the current activity"
+msgstr "链接到当前活动的文件"
+
+msgid "Places panel item:"
+msgstr "位置面板项目："
+
+msgid "Custom location:"
+msgstr "自定义位置："
+
+msgid "Type path or URL…"
+msgstr "输入路径或 URL…"
+
+msgid "Title:"
+msgstr "标题："
+
+msgid "Custom title"
+msgstr "自定义标题"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Full path"
+msgstr "完整路径"
+
+msgid "None"
+msgstr "无"
+
+msgid "Enter custom title…"
+msgstr "输入自定义标题…"
+
+msgid "Click and drag to rotate"
+msgstr "单击并拖动以旋转"
+
+msgid "Hide Background"
+msgstr "隐藏背景"
+
+msgid "Show Background"
+msgstr "显示背景"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Enabled"
+msgstr "已启用"
+
+msgid "Presets"
+msgstr "预设"
+
+msgid "Load"
+msgstr "载入"
+
+msgid "Watermarks"
+msgstr "水印"
+
+msgid "New"
+msgstr "新建"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Modify"
+msgstr "修改"
+
+msgid "Up"
+msgstr "上移"
+
+msgid "Down"
+msgstr "下移"
+
+msgid "Preview Plugins"
+msgstr "预览插件"
+
+msgctxt "@info"
+msgid "There are a lot of files and folders on the desktop. This can cause bugs and performance issues. Please consider moving some of them elsewhere."
+msgstr "桌面上的文件和文件夹过多，这可能导致错误和性能问题。请考虑将其中的一些移动到其他位置。"
+
+msgid "View"
+msgstr "视图"
+
+msgid "Sort by"
+msgstr "排序方式"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Create a new watermark"
+msgstr "创建新水印"
+
+msgid "Modify an existing watermark"
+msgstr "修改现有水印"
+
+msgid "Text:"
+msgstr "文本："
+
+msgid "Use bold text"
+msgstr "使用粗体文本"
+
+msgid "Color (HEX):"
+msgstr "颜色 (HEX)："
+
+msgid "Horizontal alignment:"
+msgstr "水平对齐："
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Personalize"
+msgstr "个性化"

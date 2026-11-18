@@ -89,7 +89,7 @@ Item {
 
         Kirigami.InlineMessage {
             visible: Plasmoid.immutable || animating
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Layout changes have been restricted by the system administrator")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Layout changes have been restricted by the system administrator")
             showCloseButton: true
             Layout.fillWidth: true
             Layout.leftMargin: Kirigami.Units.smallSpacing
@@ -105,7 +105,7 @@ Item {
             RowLayout {
                 Layout.fillWidth: true
                 enabled: main.currentItem.objectName !== "switchContainmentWarningItem"
-                Kirigami.FormData.label: i18nd("plasma_shell_org.kde.plasma.desktop", "Wallpaper type:")
+                Kirigami.FormData.label: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Wallpaper type:")
 
                 QQC2.ComboBox {
                     id: wallpaperComboBox
@@ -126,7 +126,7 @@ Item {
                 }
                 NewStuff.Button {
                     configFile: "wallpaperplugin.knsrc"
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Get New Plugins…")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Get New Plugins…")
                     visibleWhenDisabled: true // don't hide on disabled
                     Layout.preferredHeight: wallpaperComboBox.height
                 }
@@ -218,7 +218,7 @@ Item {
                             color: Kirigami.Theme.linkColor
                             font.underline: layoutMA.containsMouse
                             text: {
-                                var str = i18nd("plasma_shell_org.kde.plasma.desktop", "Layout:")
+                                var str = i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Layout:")
                                 return str.slice(0, str.length-1);
                             }
                         }
@@ -260,7 +260,7 @@ Item {
                 Layout.alignment: Qt.AlignHCenter
                 bottomMargin: pluginComboBox.height + parent.spacing
                 iconSource: "preferences-desktop-theme-global"
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Window Color")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Window Color")
                 command: "kstart aeroshell-kcmloader kwin/effects/configs/kwin_aeroglassblur_config.so " + iconSource
                 execHelper: menu_executable
             }
@@ -269,7 +269,7 @@ Item {
                 Layout.alignment: Qt.AlignHCenter
                 bottomMargin: pluginComboBox.height + parent.spacing
                 iconSource: "application-x-theme"
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Window Decorations")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Window Decorations")
                 command: "kstart aeroshell-kcmloader org.kde.kdecoration3.kcm/kcm_smoddecoration.so " + iconSource
                 execHelper: menu_executable
             }
@@ -278,7 +278,7 @@ Item {
                 Layout.alignment: Qt.AlignHCenter
                 bottomMargin: pluginComboBox.height + parent.spacing
                 iconSource: "preferences-sound"
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Sounds")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Sounds")
                 command: "kstart systemsettings kcm_soundtheme"
                 execHelper: menu_executable
             }
@@ -297,11 +297,11 @@ Item {
                 anchors.centerIn: parent
 
                 icon.name: "documentinfo"
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Layout changes must be applied before other changes can be made")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Layout changes must be applied before other changes can be made")
 
                 helpfulAction: QQC2.Action {
                     icon.name: "dialog-ok-apply"
-                    text: i18nd("plasma_shell_org.kde.plasma.desktop", "Apply Now")
+                    text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Apply Now")
                     onTriggered: saveConfig()
                 }
             }

@@ -56,6 +56,10 @@ find_package(KF6 REQUIRED COMPONENTS
     XmlGui Svg WindowSystem Service
 )
 
+# Simplified Chinese translations of all shipped components.
+# po/<lang>/<domain>.po -> share/locale/<lang>/LC_MESSAGES/<domain>.mo
+ki18n_install(po)
+
 ecm_find_qmlmodule(org.kde.kirigami REQUIRED)
 
 find_package(KWin REQUIRED COMPONENTS

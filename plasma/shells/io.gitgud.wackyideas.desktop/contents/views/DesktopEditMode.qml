@@ -104,13 +104,13 @@ Item {
 
             GenericButton {
                 id: themeButton
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Global Themes")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Global Themes")
                 onClicked: KCM.KCMLauncher.openSystemSettings("kcm_lookandfeel")
             }
 
             GenericButton {
                 id: displaySettingsButton
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Display Configuration")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Display Configuration")
                 onClicked: KCM.KCMLauncher.openSystemSettings("kcm_kscreen")
             }
 
@@ -128,7 +128,7 @@ Item {
 
             visible: Kirigami.Settings.hasTransientTouchInput || Kirigami.Settings.tabletMode
 
-            text: i18ndc("plasma_shell_org.kde.plasma.desktop", "@action:button", "More")
+            text: i18ndc("plasma_shell_io.gitgud.wackyideas.desktop", "@action:button", "More")
 
             onClicked: {
                 containment.openContextMenu(mapToGlobal(0, height));
@@ -136,7 +136,7 @@ Item {
         }
         GenericButton {
             Layout.alignment: Qt.AlignTop
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Exit Edit Mode")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Exit Edit Mode")
             onClicked: containment.plasmoid.corona.editMode = false
         }
     }

@@ -1,0 +1,143 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "IPv4 Address"
+msgstr "IPv4 地址"
+
+msgid "Connect"
+msgstr "连接"
+
+msgid "Disconnect"
+msgstr "断开连接"
+
+msgid "Speed"
+msgstr "速率"
+
+msgid "Show Network's QR Code"
+msgstr "显示网络二维码"
+
+msgid "Configure…"
+msgstr "配置…"
+
+msgid "Details"
+msgstr "详细信息"
+
+msgid "Available"
+msgstr "可用"
+
+msgid "Available connections"
+msgstr "可用连接"
+
+msgid "Airplane mode is enabled"
+msgstr "飞行模式已启用"
+
+msgid "Wireless and mobile networks are deactivated"
+msgstr "无线和移动网络已停用"
+
+msgid "Wireless is deactivated"
+msgstr "无线网络已停用"
+
+msgid "Mobile network is deactivated"
+msgstr "移动网络已停用"
+
+msgid "No matches"
+msgstr "无匹配结果"
+
+msgid "No available connections"
+msgstr "没有可用的连接"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Connection"
+msgstr "连接"
+
+msgid "Activity"
+msgstr "活动"
+
+msgid "Sent"
+msgstr "已发送"
+
+msgid "Received"
+msgstr "已接收"
+
+msgid "Bytes:"
+msgstr "字节："
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Scan this QR code with another device to connect to the \"%1\" network."
+msgstr "用另一台设备扫描此二维码即可连接到“%1”网络。"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Mobile network"
+msgstr "移动网络"
+
+msgid "Airplane mode"
+msgstr "飞行模式"
+
+msgid "Configure network connections…"
+msgstr "配置网络连接…"
+
+msgctxt "@info:tooltip"
+msgid "Current download speed is %1 kibibytes per second; current upload speed is %2 kibibytes per second"
+msgstr "当前下载速率为每秒 %1 KiB；当前上传速率为每秒 %2 KiB"
+
+msgid "/s"
+msgstr "/s"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Upload"
+msgstr "上传"
+
+msgid "Networks"
+msgstr "网络"
+
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn off Airplane Mode"
+msgstr "中键单击以关闭飞行模式"
+
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn on Airplane Mode"
+msgstr "中键单击以开启飞行模式"
+
+msgid "Enable Wi-Fi"
+msgstr "启用 Wi-Fi"
+
+msgid "Enable Mobile Network"
+msgstr "启用移动网络"
+
+msgid "Enable Airplane Mode"
+msgstr "启用飞行模式"
+
+msgid "Hotspot"
+msgstr "热点"
+
+msgid "Scan Wifi QR Code"
+msgstr "扫描 Wi-Fi 二维码"
+
+msgid "Open Network Login Page…"
+msgstr "打开网络登录页面…"
+
+msgid "&Configure Network Connections…"
+msgstr "配置网络连接(&C)…"

@@ -1,8 +1,10 @@
 [Desktop Entry]
 Comment=
+Comment[zh_CN]=打开 Plasma 部件浏览器
 Exec=sh -c 'qdbus6 org.kde.plasmashell /PlasmaShell toggleWidgetExplorer; qdbus6 org.kde.plasmashell /PlasmaShell editMode false'
 Icon=gadgets
 Name=Desktop Gadget Gallery
+Name[zh_CN]=桌面部件库
 NoDisplay=false
 Path=
 StartupNotify=true

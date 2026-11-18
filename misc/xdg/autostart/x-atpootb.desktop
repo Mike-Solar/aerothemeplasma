@@ -1,6 +1,7 @@
 [Desktop Entry]
 Exec=/usr/bin/atpootb
 Name=AeroThemePlasma OOTB Experience
+Name[zh_CN]=AeroThemePlasma 首次设置
 Terminal=false
 Type=Application
 X-KDE-autostart-after=panel

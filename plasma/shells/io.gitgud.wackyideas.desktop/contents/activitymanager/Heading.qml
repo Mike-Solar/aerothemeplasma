@@ -60,7 +60,7 @@ Item {
                 anchors.leftMargin: Kirigami.Units.smallSpacing
 
                 level: 1
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Activities")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Activities")
                 textFormat: Text.PlainText
                 elide: Text.ElideRight
                 color: "black"

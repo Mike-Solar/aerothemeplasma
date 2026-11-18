@@ -227,7 +227,7 @@ Item {
                 //opacity : .6
 
                 text: root.current ?
-                        i18nd("plasma_shell_org.kde.plasma.desktop", "Currently being used") :
+                        i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Currently being used") :
                         model.lastTimeUsedString
             }
         }
@@ -267,7 +267,7 @@ Item {
             topPadding: icon.height + 3 * Kirigami.Units.smallSpacing
             actionVisible: dropHighlight.visible
 
-            actionTitle: i18nd("plasma_shell_org.kde.plasma.desktop", "Move to\nthis activity")
+            actionTitle: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Move to\nthis activity")
 
             onTaskDropped: {
                 ActivitySwitcher.Backend.dropMove(mimeData, root.activityId);
@@ -298,7 +298,7 @@ Item {
                 bottom: parent.bottom
             }
 
-            actionTitle: i18nd("plasma_shell_org.kde.plasma.desktop", "Show also\nin this activity")
+            actionTitle: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Show also\nin this activity")
 
             onTaskDropped: {
                 ActivitySwitcher.Backend.dropCopy(mimeData, root.activityId);
@@ -361,7 +361,7 @@ Item {
                 icon.name: "configure"
                 PlasmaComponents.ToolTip.delay: Kirigami.Units.toolTipDelay
                 PlasmaComponents.ToolTip.visible: hovered
-                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_org.kde.plasma.desktop", "Configure")
+                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Configure")
 
                 onClicked: KCMLauncher.openSystemSettings("kcm_activities", root.activityId);
 
@@ -380,7 +380,7 @@ Item {
                 icon.name: "process-stop"
                 PlasmaComponents.ToolTip.delay: Kirigami.Units.toolTipDelay
                 PlasmaComponents.ToolTip.visible: hovered
-                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_org.kde.plasma.desktop", "Stop activity")
+                PlasmaComponents.ToolTip.text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Stop activity")
 
                 onClicked: ActivitySwitcher.Backend.stopActivity(activityId);
 

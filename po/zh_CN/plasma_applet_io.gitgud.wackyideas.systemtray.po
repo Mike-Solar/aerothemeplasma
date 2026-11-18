@@ -1,0 +1,129 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Entries"
+msgstr "条目"
+
+msgid "Shown when relevant"
+msgstr "相关时显示"
+
+msgid "Always shown"
+msgstr "始终显示"
+
+msgid "Always hidden"
+msgstr "始终隐藏"
+
+msgid "Disabled"
+msgstr "已禁用"
+
+msgid "Application Status"
+msgstr "应用程序状态"
+
+msgid "Communications"
+msgstr "通信"
+
+msgid "System Services"
+msgstr "系统服务"
+
+msgid "Hardware Control"
+msgstr "硬件控制"
+
+msgid "Miscellaneous"
+msgstr "其他"
+
+msgctxt "@info:usagetip"
+msgid "Look for a setting in <application>%1</application> to disable its tray icon before doing it here. Some apps’ tray icons were not designed to be disabled, and using this setting may cause them to behave unexpectedly.<nl/><nl/>Use this setting at your own risk, and do not report issues to KDE or the app’s author."
+msgstr "请先在 <application>%1</application> 中查找用于禁用其托盘图标的设置，然后再在此处禁用。某些应用的托盘图标并非设计为可禁用，使用此设置可能导致其行为异常。<nl/><nl/>使用此设置的风险由您自行承担，且请勿向 KDE 或该应用的作者报告问题。"
+
+msgctxt "@action:button"
+msgid "I understand the risks"
+msgstr "我了解这些风险"
+
+msgctxt "@info:usagetip"
+msgid "Disabling the clipboard is not recommended, as it will cause copied data to be lost when the application it was copied from is closed.<nl/><nl/>Instead consider configuring the clipboard to disable its history, or only remember one item at a time."
+msgstr "不建议禁用剪贴板，因为当复制数据的来源应用关闭时，已复制的数据将会丢失。<nl/><nl/>建议改为将剪贴板配置为禁用历史记录，或仅记住一个项目。"
+
+msgid "If you choose to disable certain icons and notifications, you won't be notified about changes or updates. To view hidden icons at any time, click the arrow next to the notification area on the taskbar"
+msgstr "如果您选择禁用某些图标和通知，将无法收到有关更改或更新的通知。要随时查看隐藏的图标，请单击任务栏通知区域旁的箭头"
+
+msgctxt "Name of the system tray entry"
+msgid "Icons"
+msgstr "图标"
+
+msgid "Behaviors"
+msgstr "行为"
+
+msgid "Shortcut"
+msgstr "快捷键"
+
+msgid "Always show all icons and notifications on the taskbar"
+msgstr "始终在任务栏上显示所有图标和通知"
+
+msgid "Show pin button"
+msgstr "显示固定按钮"
+
+msgctxt "The arrangement of system tray icons in the Panel"
+msgid "Panel icon size:"
+msgstr "面板图标大小："
+
+msgid "Small"
+msgstr "小"
+
+msgid "Scale with Panel height"
+msgstr "随面板高度缩放"
+
+msgid "Scale with Panel width"
+msgstr "随面板宽度缩放"
+
+msgid "Automatically enabled when in Touch Mode"
+msgstr "触摸模式下自动启用"
+
+msgctxt "@label:listbox The spacing between system tray icons in the Panel"
+msgid "Panel icon spacing:"
+msgstr "面板图标间距："
+
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "小"
+
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "正常"
+
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "大"
+
+msgctxt "@info:usagetip under a combobox when Touch Mode is on"
+msgid "Automatically set to Large when in Touch Mode"
+msgstr "触摸模式下自动设为大"
+
+msgid "Customize..."
+msgstr "自定义..."
+
+msgid "Show all the items in the system tray in a popup"
+msgstr "在弹窗中显示系统托盘的所有项目"
+
+msgid "Close popup"
+msgstr "关闭弹窗"
+
+msgid "Show hidden icons"
+msgstr "显示隐藏的图标"

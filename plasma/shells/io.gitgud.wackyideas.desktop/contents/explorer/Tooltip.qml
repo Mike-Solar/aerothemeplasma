@@ -91,7 +91,7 @@ MouseArea {
             horizontalCenter: parent.horizontalCenter
         }
         PlasmaComponents.Label {
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "License:")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "License:")
             textFormat: Text.PlainText
             Layouts.Layout.alignment: Qt.AlignVCenter|Qt.AlignRight
         }
@@ -102,7 +102,7 @@ MouseArea {
             wrapMode: Text.Wrap
         }
         PlasmaComponents.Label {
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Author:")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Author:")
             textFormat: Text.PlainText
             Layouts.Layout.alignment: Qt.AlignVCenter|Qt.AlignRight
         }
@@ -112,7 +112,7 @@ MouseArea {
             wrapMode: Text.Wrap
         }
         PlasmaComponents.Label {
-            text: i18nd("plasma_shell_org.kde.plasma.desktop", "Email:")
+            text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Email:")
             textFormat: Text.PlainText
             Layouts.Layout.alignment: Qt.AlignVCenter|Qt.AlignRight
         }
@@ -133,7 +133,7 @@ MouseArea {
             NumberAnimation { duration: Kirigami.Units.longDuration }
         }
         iconSource: "application-exit"
-        text: i18nd("plasma_shell_org.kde.plasma.desktop", "Uninstall")
+        text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Uninstall")
         onClicked: {
             widgetExplorer.uninstall(pluginName)
             tooltipDialog.visible = false

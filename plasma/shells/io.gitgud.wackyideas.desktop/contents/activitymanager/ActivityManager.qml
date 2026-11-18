@@ -140,7 +140,7 @@ FocusScope {
             QQC2.Button {
                 id: newActivityButton
 
-                text: i18nd("plasma_shell_org.kde.plasma.desktop", "Create activity…")
+                text: i18nd("plasma_shell_io.gitgud.wackyideas.desktop", "Create activity…")
                 icon.name: "list-add"
                 anchors.right: parent.right
                 anchors.bottom: parent.bottom

@@ -1,0 +1,501 @@
+# AeroThemePlasma Simplified Chinese translation.
+# Copyright (C) 2026 The AeroThemePlasma contributors
+# This file is distributed under the same license as the AeroThemePlasma package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AeroThemePlasma 6.8\n"
+"Report-Msgid-Bugs-To: https://github.com/Mike-Solar/aerothemeplasma/issues\n"
+"PO-Revision-Date: 2026-11-18 12:00+0800\n"
+"Last-Translator: Mike Solar <iam@mikesolar.cn>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: AeroThemePlasma zh_CN localization\n"
+
+msgid "Currently being used"
+msgstr "当前正在使用"
+
+msgid "Move to\nthis activity"
+msgstr "移动到\n此活动"
+
+msgid "Show also\nin this activity"
+msgstr "同时显示于\n此活动"
+
+msgid "Configure"
+msgstr "配置"
+
+msgid "Stop activity"
+msgstr "停止活动"
+
+msgid "Stopped activities:"
+msgstr "已停止的活动："
+
+msgid "Create activity…"
+msgstr "新建活动…"
+
+msgid "Activities"
+msgstr "活动"
+
+msgid "Configure activity"
+msgstr "配置活动"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
+
+msgid "View Error Details…"
+msgstr "查看错误详情…"
+
+msgid "Open %1"
+msgstr "打开 %1"
+
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "虚拟键盘"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Send an email to %1"
+msgstr "向 %1 发送电子邮件"
+
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "打开网站 %1"
+
+msgid "Copyright"
+msgstr "版权所有"
+
+msgid "License:"
+msgstr "许可证："
+
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "查看许可证文本"
+
+msgid "Authors"
+msgstr "作者"
+
+msgid "Credits"
+msgstr "致谢"
+
+msgid "Translators"
+msgstr "翻译者"
+
+msgid "Report a Bug…"
+msgstr "报告错误…"
+
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+msgid "Open configuration page"
+msgstr "打开配置页面"
+
+msgid "Confirm changes"
+msgstr "确认更改"
+
+msgid "The settings of the current module have changed. Do you want to apply the changes or discard them?"
+msgstr "当前模块的设置已更改。要应用更改还是放弃？"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "Discard"
+msgstr "放弃"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Left-Button"
+msgstr "鼠标左键"
+
+msgid "Right-Button"
+msgstr "鼠标右键"
+
+msgid "Middle-Button"
+msgstr "鼠标中键"
+
+msgid "Back-Button"
+msgstr "后退键"
+
+msgid "Forward-Button"
+msgstr "前进键"
+
+msgid "Vertical-Scroll"
+msgstr "垂直滚动"
+
+msgid "Horizontal-Scroll"
+msgstr "水平滚动"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgid "Ctrl"
+msgstr "Ctrl"
+
+msgid "Alt"
+msgstr "Alt"
+
+msgid "Meta"
+msgstr "Meta"
+
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+msgctxt "@title"
+msgid "About"
+msgstr "关于"
+
+msgid "Add Action"
+msgstr "添加操作"
+
+msgid "Layout changes have been restricted by the system administrator"
+msgstr "系统管理员已限制布局更改"
+
+msgid "Wallpaper type:"
+msgstr "壁纸类型："
+
+msgid "Get New Plugins…"
+msgstr "获取新插件…"
+
+msgid "Layout:"
+msgstr "布局："
+
+msgid "Window Color"
+msgstr "窗口颜色"
+
+msgid "Window Decorations"
+msgstr "窗口装饰"
+
+msgid "Sounds"
+msgstr "声音"
+
+msgid "Layout changes must be applied before other changes can be made"
+msgstr "必须先应用布局更改，才能进行其他更改"
+
+msgid "Apply Now"
+msgstr "立即应用"
+
+msgid "Shortcuts"
+msgstr "快捷键"
+
+msgid "This shortcut will activate the applet as though it had been clicked."
+msgstr "此快捷键会像单击部件一样将其激活。"
+
+msgid "Wallpaper"
+msgstr "壁纸"
+
+msgid "Mouse Actions"
+msgstr "鼠标操作"
+
+msgid "Input Here"
+msgstr "在此输入"
+
+msgid "Panel Settings"
+msgstr "面板设置"
+
+msgid "Add Spacer"
+msgstr "添加间隔"
+
+msgid "Add spacer widget to the panel"
+msgstr "向面板添加间隔部件"
+
+msgid "Add Widgets…"
+msgstr "添加部件…"
+
+msgid "Open the widget selector to drag and drop widgets to the panel"
+msgstr "打开部件选择器，将部件拖放到面板"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Top"
+msgstr "上"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Bottom"
+msgstr "下"
+
+msgid "Set Position…"
+msgstr "设置位置…"
+
+msgid "Alignment"
+msgstr "对齐"
+
+msgid "Center"
+msgstr "居中"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "Fill height"
+msgstr "填满高度"
+
+msgid "Fill width"
+msgstr "填满宽度"
+
+msgid "Fit content"
+msgstr "适应内容"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Visibility"
+msgstr "可见性"
+
+msgid "Always visible"
+msgstr "始终可见"
+
+msgid "Auto hide"
+msgstr "自动隐藏"
+
+msgid "Dodge windows"
+msgstr "躲避窗口"
+
+msgid "Windows Go Below"
+msgstr "窗口置于下方"
+
+msgid "Opacity"
+msgstr "不透明度"
+
+msgid "Adaptive"
+msgstr "自适应"
+
+msgid "Opaque"
+msgstr "不透明"
+
+msgid "Translucent"
+msgstr "半透明"
+
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "浮动"
+
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "已禁用"
+
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "仅部件"
+
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "面板和部件"
+
+msgid "Panel Width:"
+msgstr "面板宽度："
+
+msgid "Panel Height:"
+msgstr "面板高度："
+
+msgid "Focus shortcut:"
+msgstr "聚焦快捷键："
+
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "按下此键盘快捷键可将焦点移至面板"
+
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "删除面板"
+
+msgid "Remove this panel; this action is undo-able"
+msgstr "移除此面板；此操作可撤销"
+
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "克隆面板"
+
+msgctxt "@info:tooltip"
+msgid "Create a new panel with the same settings and applets"
+msgstr "使用相同的设置和部件创建新面板"
+
+msgctxt "@action:button Done configuring the panel"
+msgid "Done"
+msgstr "完成"
+
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr "关闭面板设置窗口并退出编辑模式"
+
+msgid "Panel and Desktop Management"
+msgstr "面板和桌面管理"
+
+msgid "You can drag Panels and Desktops around to move them to different screens."
+msgstr "您可以拖拽面板和桌面，将它们移到其他屏幕。"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Double click to reset."
+msgstr "双击可重置。"
+
+msgid "Drag to change maximum height."
+msgstr "拖动可更改最大高度。"
+
+msgid "Drag to change maximum width."
+msgstr "拖动可更改最大宽度。"
+
+msgid "Drag to change minimum height."
+msgstr "拖动可更改最小高度。"
+
+msgid "Drag to change minimum width."
+msgstr "拖动可更改最小宽度。"
+
+msgid "Drag to change position on this screen edge.\nDouble click to reset."
+msgstr "拖动可更改在此屏幕边缘的位置。\n双击可重置。"
+
+msgid "Swap with Desktop on Screen %1"
+msgstr "与屏幕 %1 上的桌面交换"
+
+msgid "Move to Screen %1"
+msgstr "移至屏幕 %1"
+
+msgid "Remove Desktop"
+msgstr "移除桌面"
+
+msgid "Remove Panel"
+msgstr "移除面板"
+
+msgid "%1 (primary)"
+msgstr "%1（主显示器）"
+
+msgid "Alternative Widgets for %1"
+msgstr "%1 的备选部件"
+
+msgid "%1 added"
+msgstr "已添加 %1"
+
+msgid "Unsupported Widget"
+msgstr "不支持的部件"
+
+msgid "Author:"
+msgstr "作者："
+
+msgid "Email:"
+msgstr "电子邮件："
+
+msgid "Uninstall"
+msgstr "卸载"
+
+msgid "Desktop Gadgets"
+msgstr "桌面小工具"
+
+msgid "Do you want to uninstall %1?"
+msgstr "要卸载 %1 吗？"
+
+msgid "Don't uninstall"
+msgstr "不卸载"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Page %1 of %2"
+msgstr "第 %1 页，共 %2 页"
+
+msgid "Search gadgets"
+msgstr "搜索小工具"
+
+msgid "Hide details"
+msgstr "隐藏详细信息"
+
+msgid "Show details"
+msgstr "显示详细信息"
+
+msgid "Install gadgets from local file"
+msgstr "从本地文件安装小工具"
+
+msgid "Get more gadgets online"
+msgstr "在线获取更多小工具"
+
+msgid "The user name or password is incorrect."
+msgstr "用户名或密码不正确。"
+
+msgid "Locked"
+msgstr "已锁定"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Caps Lock is on"
+msgstr "大写锁定已开启"
+
+msgid "(or place your fingerprint on the reader)"
+msgstr "（或将手指放在读取器上）"
+
+msgid "(or use your smartcard)"
+msgstr "（或使用智能卡）"
+
+msgid "Switch User"
+msgstr "切换用户"
+
+msgid "Welcome"
+msgstr "欢迎"
+
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "切换布局"
+
+msgid "Lock this computer"
+msgstr "锁定此计算机"
+
+msgid "Log off"
+msgstr "注销"
+
+msgid "Change a password..."
+msgstr "更改密码..."
+
+msgid "Start Task Manager"
+msgstr "启动任务管理器"
+
+msgid "Restart"
+msgstr "重启"
+
+msgid "Sleep"
+msgstr "睡眠"
+
+msgid "Hibernate"
+msgstr "休眠"
+
+msgid "Shut down"
+msgstr "关机"
+
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr "%1%"
+
+msgid "Personalize"
+msgstr "个性化"
+
+msgid "Global Themes"
+msgstr "全局主题"
+
+msgid "Display Configuration"
+msgstr "显示配置"
+
+msgctxt "@action:button"
+msgid "More"
+msgstr "更多"
+
+msgid "Exit Edit Mode"
+msgstr "退出编辑模式"
+
+msgid "Panel Focus Indicator"
+msgstr "面板焦点指示器"
