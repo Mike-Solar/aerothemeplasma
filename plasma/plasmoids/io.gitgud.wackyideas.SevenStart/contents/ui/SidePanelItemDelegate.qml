@@ -36,6 +36,17 @@ Item {
     KeyNavigation.backtab: findPrevious();
     KeyNavigation.tab: findNext();
 
+    // Launch through KIO (kde-open) instead of Qt.openUrlExternally():
+    // the latter hands the URL to xdg-desktop-portal, and portal-spawned
+    // applications do not always inherit WAYLAND_DISPLAY/DISPLAY from the
+    // Plasma session, so Qt aborts with "no Qt platform plugin could be
+    // initialized". KIO resolves the default application and executes it
+    // from Plasma's own environment, and it also understands KIO URLs such
+    // as remote:/ or recentlyused:/ which are not valid for Qt.openUrlExternally.
+    function quoteArg(arg) {
+        return '"' + String(arg).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"';
+    }
+
     function findItem() {
         for(var i = 0; i < parent.visibleChildren.length-1; i++) {
             if(sidePanelDelegate == parent.visibleChildren[i])
@@ -208,7 +219,7 @@ Item {
             if(executeProgram)
                 executable.exec(executableString);
             else {
-                Qt.callLater(Qt.openUrlExternally, executableString)
+                executable.exec("kde-open " + quoteArg(executableString));
             }
         }
         hoverEnabled: true

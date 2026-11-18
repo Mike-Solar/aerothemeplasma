@@ -116,7 +116,7 @@ Image {
                             root.cancelRequested();
                             break;
                         case(4):
-                            executable.exec("kstart ksysguard");
+                            executable.exec("sh -c 'if command -v plasma-systemmonitor >/dev/null 2>&1; then exec plasma-systemmonitor; else exec ksysguard; fi'");
                             break;
                     }
                 }
